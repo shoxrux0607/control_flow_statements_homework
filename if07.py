@@ -16,14 +16,14 @@ def main(a):
         return "positive even number"
 
     elif a < 0 and a % 2 == 0:
-        return "negativ even number"
+        return "negative even number"
 
     elif a > 0 and a % 2 != 0:
-        return "positiv odd number"
+        return  "positive odd number"
 
     elif a < 0 and a % 2 != 0:
-        return "negativ odd number"
-
+        return "negative odd number"
+   
     else:
         return "the number is zero"
 
